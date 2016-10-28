@@ -1,7 +1,6 @@
 # Graph-components
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Ember components wrapping basic d3 visualizations so you can re-use these components by just passing in parameters such as size, color, & data. Code is in CoffeeScript.
 
 ## Prerequisites
 
