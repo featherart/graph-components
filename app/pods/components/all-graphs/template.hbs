@@ -1,0 +1,28 @@
+{{yield}}
+
+<div class="graph">
+  <h3>Bars/Scatter</h3>
+  {{bar-graph dataset=dataset height=400 width=600 abbreviate=2}}
+</div>
+<div class="graph">
+  {{bar-graph dataset=dataset height=300 width=500 yScale=1000 barSize=7000 colorString="rgb( 190, 35, 35)"}}
+</div>
+<div class="graph">
+  <h3>Donut/Pie</h3>
+  {{donut-graph dataset=dataset innerRadius=40 height=500 width=500}}
+</div>
+<div class="graph">
+  {{donut-graph dataset=dataset innerRadius=200 height=400 width=400}}
+</div>
+<div class="graph">
+  <h3>Hello World</h3>
+  {{globe-graph height=300 width=300 scale=150}}
+</div>
+<div>
+  {{drop-zone url='http://example.com/example' clickable=false addRemoveLinks=true}}
+
+</div>
+{{!-- <div class="graph">
+  <h3>US Chloropleth</h3>
+  {{chloropleth-graph}}
+</div> --}}

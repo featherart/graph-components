@@ -1,0 +1,62 @@
+body {
+  color: #333333;
+  font-face: 'Ariel';
+  font-size: 1em;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  color: #666666;
+}
+.graph {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+
+.xAxis {
+  font-size: 10px;
+  /*transform: rotate(90deg);
+  transform-origin: left top 0;*/
+}
+
+.yAxis {
+  font-size: 10px;
+}
+
+/* overrides any colors set in graph */
+.bar-graph rect {
+  /*fill: rgb(49, 163, 84); */
+}
+
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+.q0-9 { fill:rgb(247,251,255); }
+.q1-9 { fill:rgb(222,235,247); }
+.q2-9 { fill:rgb(198,219,239); }
+.q3-9 { fill:rgb(158,202,225); }
+.q4-9 { fill:rgb(107,174,214); }
+.q5-9 { fill:rgb(66,146,198); }
+.q6-9 { fill:rgb(33,113,181); }
+.q7-9 { fill:rgb(8,81,156); }
+.q8-9 { fill:rgb(8,48,107); }
